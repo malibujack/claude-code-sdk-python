@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "Anthropic", email = "support@anthropic.com"},
+    {name = "MalibuJack", email = "malibujack@gmail.com"},
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -40,9 +40,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/anthropics/claude-code-sdk-python"
+Homepage = "https://github.com/malibujack/claude-code-sdk-python"
 Documentation = "https://docs.anthropic.com/en/docs/claude-code/sdk"
-Issues = "https://github.com/anthropics/claude-code-sdk-python/issues"
+Issues = "https://github.com/malibujack/claude-code-sdk-python/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/claude_code_sdk"]
